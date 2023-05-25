@@ -95,12 +95,10 @@ main{
 .productosVentas li img {
     width: 150px;
     text-align: center;
-    
 }
 
 .tarjetas{
     margin: 25px;
-
 }
 
 
@@ -108,12 +106,21 @@ main{
     transition: 200ms;
     border-color:#c78c19;
     border-width: 2px;
-    
+}
+
+.productosVentas li:hover{
+    transition: 200ms;
+    border-color:#c78c19;
+    border-width: 2px;
 }
 
 .servicios li:active{
     border-color:#088c19;
-    
+}
+
+.productosVentas li:active{
+    border-color:#088c19;
+    border-width: 2px;
 }
 
 .servicios h2{
